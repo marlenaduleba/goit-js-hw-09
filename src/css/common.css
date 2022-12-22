@@ -10,9 +10,49 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.form {
+ margin-bottom: 10px;
+}
+
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field:last-child {
+  margin-left: 11px;
+}
+
+.value {
+  font-size: 34px;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
 }
